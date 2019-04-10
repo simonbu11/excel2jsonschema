@@ -64,6 +64,8 @@ function processProperties(value, modelInfo, embedded) {
         minLength: value2[0].MinLength,
         maxItems: value2[0].MaxItems,
         minItems: value2[0].MinItems,
+        '$rs-translate': value2[0].RSTranslate,
+        '$mapping-destination': value2[0].MappingDestination,
       };
     })
     .value();
